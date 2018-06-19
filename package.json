@@ -1,0 +1,15 @@
+{
+  "name": "filetree-autohide",
+  "main": "./lib/filetree-autohide",
+  "version": "0.1.0",
+  "description": "Auto hide file tree pane in Atom",
+  "repository": "https://github.com/sanarena/filetree-autohide",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sanarena/filetree-autohide/issues"
+  },
+  "homepage": "https://github.com/sanarena/filetree-autohide"
+}
