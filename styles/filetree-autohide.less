@@ -1,7 +1,10 @@
-.atom-dock-inner.left.atom-dock-open:hover {
-    width: unset;
+.atom-dock-inner.left.atom-dock-open:hover{
+    max-width: 10000px;
 }
 
 .atom-dock-inner.left.atom-dock-open {
-    width: 5px;
+    position: absolute;
+    z-index: 100;
+    max-width: 5px;
+    transition: max-width 1.5s ease-in-out;
 }
